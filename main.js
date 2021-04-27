@@ -49,4 +49,4 @@ sr.reveal('.sobreMi__text',{delay: 400});
 sr.reveal('.Experiencia__img',{interval: 200}); 
 
 /*SCROLL contacto*/
-sr.reveal('.Contacto__container',{interval: 200}); 
+sr.reveal('.contacto__container',{interval: 200}); 
