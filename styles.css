@@ -256,14 +256,15 @@ img{
 
 /* ===== FOOTER =====*/
 .footer{
-  background-color: var(--second-color);
-  color: #fff;
+  background-color: white;
+  color: var(--second-color);;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
 }
 .footer__title{
   font-size: 2rem;
+  color: var(--second-color);
   margin-bottom: var(--mb-4);
 }
 .footer__social{
@@ -276,7 +277,10 @@ img{
 }
 
 
-/* ===== MEDIA QUERIES=====*/
+
+
+
+/*MEDIA QUERIES*/
 @media screen and (min-width: 768px){
   body{
     margin: 0;
@@ -355,5 +359,24 @@ img{
   }
   .home__img{
     right: 10%;
+    }
   }
+}
+
+.contactoContent {
+  display: flex;
+  align-items: center;
+  height: 500px;
+}
+
+/* ===== CONTACTO =====*/
+.contact__input{
+  width: 100%;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 1.5px solid var(--second-color);
+  outline: none;
+  margin-bottom: var(--mb-4);
 }
