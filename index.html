@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <!--BOX ICONS-->
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <title>Melanie Casasco - Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>¡Mis 15!</title>
 </head>
 
 <body>
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="#" class="nav__logo">Melanie Casasco</a>
+                <a href="#" class="nav__logo">Valen Ferrari</a>
             </div>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#sobreMi" class="nav__link">Sobre mí</a></li>
-                    <li class="nav__item"><a href="#Experiencia" class="nav__link">Portfolio</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                    <li class="nav__item"><a href="#sobreMi" class="nav__link">Festejemos</a></li>
+                    <li class="nav__item"><a href="#Experiencia" class="nav__link">Te espero</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Asistencia</a></li>
                 </ul>
             </div>
             <div class="nav__toggle" id="nav-toggle">
@@ -30,29 +30,72 @@
         </nav>
     </header>
     <main class="l-main">
-        <section class="home bd-grid" id="home">
+        <section class="home homeContent" id="home">
             <div class="home__data">
-                <h1 class="home__title">¡Hola!<br>Soy <span class="home__title-color">Melanie,</span><br>Jr. Frontend
-                    Dev</h1>
+                <h1><span>¡Hola!</span>
+                    <br>
+                <span>te</span>
+                <span>invito</span>
+                 <span>a</span>
+                <span>mis</span>
+                <span>15</span></h1>
+              <!--   <h1 class="home__title">¡Hola!<br>Soy <span class="home__title-color">Melanie,</span><br>Jr. Frontend
+                    Dev</h1> -->
             </div>
             <div class="home__social">
-                <a href="https://www.linkedin.com/in/melanie-casasco/" class="home__social-icon"><i
+               <!--  <a href="https://www.linkedin.com/in/melanie-casasco/" class="home__social-icon"><i
                         class='bx bxl-linkedin'></i></a>
                 <a href="https://www.behance.net/melanie-casasco" class="home__social-icon"><i
                         class='bx bxl-behance'></i></a>
-                <a href="https://github.com/melicasasco" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="https://github.com/melicasasco" class="home__social-icon"><i class='bx bxl-github'></i></a> -->
             </div>
             <div class="home__img">
-                <img src="mc-portfolio.png" alt="">
+                <img src="vf.png" alt="" style="border-radius: 5%;  box-shadow: 4px 8px 12px rgba(31, 228, 245, 0.7);">
             </div>
         </section>
 
         <!--sobre mi-->
         <section class="sobreMi section " id="sobreMi">
-            <h2 class="section-title">Un poco sobre mí</h2>
+            <h2 class="section-title">Festejemos</h2>
 
-            <div class="sobreMi__container bd-grid">
-                <div class="sobreMi__img">
+            <div class="sobreMi__container main">
+
+
+                <!-- 
+
+GRADIENT BANNER DESIGN 
+-->
+                <div>
+                
+                    <div class="cards">
+                    <div class="card card-1">
+                        <div class="card__icon"><box-icon color="white" name='map'></box-icon></div>
+                        <p class="card__exit"><i class="fas fa-times"></i></p>
+                        <h2 class="card__title">Salón <b>Trebelno</b></h2>
+                        <p class="card__apply">
+                        <a class="card__link" target="_blank" href="https://www.google.com/maps?q=Recepciones+%22Trebelno%22,+ELG,+Av.+Hip%C3%B3lito+Yrigoyen+14032,+B1852ELG+Burzaco,+Provincia+de+Buenos+Aires&ftid=0x95bcd3608e2fb5d5:0x96a3f3f9ac0495fc&hl=en-AR&gl=ar&entry=gps&g_ep=CAISBjYuMzcuMRgAINeCAw%3D%3D&g_st=iw">Ver mapa</a>
+                        </p>
+                    </div>
+                    <div class="card card-1">
+                        <div class="card__icon"><box-icon type='solid' color="white" name='t-shirt'></box-icon></div>
+                        <p class="card__exit"><i class="fas fa-times"></i></p>
+                        <h2 class="card__title"> <b>elegante sport</b></h2>
+                        <p class="card__apply">
+                        <span class="card__link" >Dress code</span>
+                        </p>
+                    </div>
+                    <div class="card card-1">
+                        <div class="card__icon"><box-icon name='time-five' color="white" ></box-icon></div>
+                        <p class="card__exit"><i class="fas fa-times"></i></p>
+                        <h2 class="card__title">Te espero a las XX:XX</h2>
+                        <p class="card__apply">
+                        <span class="card__link">Horario</span>
+                        </p>
+                    </div>
+
+                    </div>
+                </div>
+               <!--  <div class="sobreMi__img">
                     <img src="mc.jpg" alt="">
                 </div>
                 <div>
@@ -63,103 +106,47 @@
                     <p class="sobreMi__text">Como egresada en Artes, <span class="home__title-color">mi devoción por la
                             pintura y el diseño</span> me llevó a indagar sobre la materia en el ámbito digital. 
                             Actualmente me encuentro trabajando como Frontend Developer en dos agencias de Argentina.</p>
-                </div>
+                </div> -->
             </div>
         </section>
 
-        <!-- Portfolio -->
-        <section class="Experiencia section" id="Experiencia">
-            <h2 class="section-title">Portfolio</h2>
+                <!--sobre mi-->
+                <section class="sobreMi section " id="Experiencia">
+                    <h2 class="section-title">¡Te espero!</h2>
+        
+                    <div class="sobreMi__container main text" style="padding-bottom:1rem; margin: 0 auto;">
+        
+      
+                        <p>¡Vení a compartir conmigo este gran momento!</p>
+        
+                            </div>
+                        </div>
+                      
+                    </div>
+                </section>
 
-            <div class="Experiencia__container bd-grid">
-                <div class="Experiencia__img">
-                    <a href="https://github.com/melicasasco/e-commerce-olafur-arnalds" target="_blank"><img src="olafurArnalds.png"
-                            alt="Proyecto ReactJs en proceso"></a>
-                </div>
-                <div>
-                    <h2 class="sobreMi__subtitle">Proyecto React Js</h2>
-                    <p class="sobreMi__text"><b>Ólafur Arnalds Store, </b>e-commerce de mi músico clásico favorito
-                        desarrollado en ReactJs, utilizando: <span class="home__title-color"> react router dom, context,
-                            conditional rendering, promesas, Firestore database
-                            de Firebase como base de datos vía Api, AOS animation, material UI.
-                        </span>
-                    </p>
-
-                </div>
-                <div class="Experiencia__img">
-                    <a href="https://www.kajamiflowers.com/" target="_blank"><img src="kajamiTeam.jpg"
-                            alt="Proyecto Kajami Flowers"></a>
-                </div>
-                <div>
-                    <h2 class="sobreMi__subtitle">Emprendimiento Kajami Flowers</h2>
-                    <p class="sobreMi__text"><b>Kajami Flowers, </b>florería radicada en Lima, Perú. Página web
-                        realizada en equipo:
-                        trabajé junto a otro desarrollador siguiendo el diseño ejecutado por una diseñadora UX/UI. El
-                        sitio contiene<span class="home__title-color"> HTML, CSS,
-                            y Javascript. Hosting SiteGround.
-                        </span>
-                    </p>
-
-                </div>
-                <div class="Experiencia__img">
-                    <a href="https://www.behance.net/gallery/106388683/Les-Chats-UXUI-Design" target="_blank"><img
-                            src="proyectoLesChats.jpg" alt="Proyecto Les Chats"></a>
-                </div>
-                <div>
-                    <h2 class="sobreMi__subtitle">Proyecto UX/UI</h2>
-                    <p class="sobreMi__text"><b>Les Chats, </b>una app especializada en gatitos. Porque amo a mis gatos,
-                        creé una app con un diseño centrado en el usuario, los "papás felinos". Como metodologías de
-                        trabajo y diseño, algunas de las que implementé son: <span class="home__title-color">userflow,
-                            MVP, arquitectura de la información, benchmarking y métricas
-                            UX.</span>
-                    </p>
-
-                </div>
-                <div class="Experiencia__img">
-                    <a href="https://melicasasco.github.io/nexus/" target="_blank"><img src="nexus.jpg" alt=""></a>
-                </div>
-                <div>
-                    <h2 class="sobreMi__subtitle">Proyecto Desarrollo Web</h2>
-                    <p class="sobreMi__text"><b>Nexus, </b>sitio de galería de Arte ubicada en Buenos Aires, creado con
-                        <span class="home__title-color">HTML,
-                            CSS, SASS y Bootstrap</span>. Para el diseño me inspiré en una línea minimalista. Web
-                        responsive.
-                    </p>
-                </div>
-                <div class="Experiencia__img">
-                    <a href="https://melicasasco.github.io/javascriptcoder/"  target="_blank"><img src="nexusJs.jpg" alt=""></a>
-                </div>
-
-                <div>
-                    <h2 class="sobreMi__subtitle">Proyecto Javascript</h2>
-                    <p class="sobreMi__text"><b>Nexus, </b>Aplicación web de una galería de Arte con <span
-                            class="home__title-color">javascript</span> aplicado para una mejor experiencia de usuario.
-                        Funcionalidades: se puede ofertar por una o más obras de las que están en subasta, obtener el
-                        valor final total con comisión + iva,
-                        ver los valores ofertados; buscar por artista y ver las obras disponibles; llenar formulario de
-                        contacto. Contiene:<span class="home__title-color">
-                            funciones, objetos, jquery, JSON, AJAX.
-                        </span> </p>
-                </div>
-        </section>
+     
 
         <!--contacto-->
-        <section class="contact section contact__container bd-grid" id="contact">
-            <h2 class="section-title">Contacto</h2>
-        </section>
-        <footer class="footer">
-            <div class="footer__social">
+       <!--  <section class="contact section contact__container bd-grid" id="contact">
+            <h2 class="section-title">Asistencia</h2>
+        </section> -->
+        <footer class="footer" style="padding-top: 2rem;">
+          <!--   <h2 class="section-title contact section contact__container bd-grid" id="contact" style="color: #395ac7;" class="section-title">Asistencia</h2> -->
+          <!--   <div class="footer__social">
                 <a href="https://www.linkedin.com/in/melanie-casasco/"  target="_blank" class="home__social-icon"><i
                         class='bx bxl-linkedin'></i></a>
                 <a href="https://www.behance.net/melanie-casasco"  target="_blank" class="home__social-icon"><i
                         class='bx bxl-behance'></i></a>
                 <a href="https://github.com/melicasasco" class="home__social-icon"  target="_blank"><i class='bx bxl-github'></i></a>
-            </div>
-            <p>melaniecasasco@gmail.com</p>
+            </div> -->
+            <a href="#" class="button-38" target="_blank" style="color: #395ac7;">¡Confirmame tu asistencia!</a>
+           
         </footer>
 
         <!--scroll reveal-->
         <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
         <!--mi JS-->
         <script src="main.js"></script>
